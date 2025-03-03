@@ -40,8 +40,8 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
- - title: linkedin
- url: https://www.linkedin.com/in/grantwoolley/
+  - title: linkedin
+    url: https://www.linkedin.com/in/grantwoolley/
   - title: github
     url: http://github.com/gwoolly
   - title: itch-io
