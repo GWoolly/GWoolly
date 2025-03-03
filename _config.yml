@@ -40,24 +40,18 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: linkedin
+    - title: linkedin
     url: https://www.linkedin.com/in/grantwoolley/
-  - title: itch-io
-    url: http://itch.io/gwoolly    
-  - title: github
+    - title: github
     url: http://github.com/gwoolly
-  - title: steam
-    url: http://github.com/gwoolly
-  - title: playstation
-    url: http://github.com/gwoolly
-  - title: ps
-    url: http://github.com/gwoolly
-  - title: nintendo
-    url: http://github.com/gwoolly
-  - title: switch
-    url: http://github.com/gwoolly
-  - title: xbox
-    url: http://github.com/gwoolly
+    - title: itch-io
+    url: https://gwoolley.itch.io/
+    - title: steam
+    url: https://steamcommunity.com/profiles/76561198057387248/
+  # - title: playstation
+    # url: http://github.com/gwoolly
+  # - title: xbox
+    # url: http://github.com/gwoolly
 
 # Postal address (add as many lines as necessary)
 address:
