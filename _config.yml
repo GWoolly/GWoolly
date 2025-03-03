@@ -5,7 +5,7 @@ url: https://github.com/GWoolly/gwoolly
 # url: https://github.com/jeromelachaud/freelancer-theme
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "Games Quality Design - Pixel Art"
+skills: "Quality Assurance - Games Design - Pixel Art"
 meta_author: Woolley Grant
 
 # Google webmaster tools
@@ -26,8 +26,8 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: e83a57 #80B3FF
-  primary-rgb: "232,58,87" #"128,179,255"
+  primary: db4d5b #80B3FF
+  primary-rgb: "354,65,86" #"128,179,255"
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
 
@@ -42,9 +42,21 @@ footer:
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/grantwoolley/
-  - title: twitter
-    url: http://twitter.com/jekyllrb
+  - title: itch-io
+    url: http://itch.io/gwoolly    
   - title: github
+    url: http://github.com/gwoolly
+  - title: steam
+    url: http://github.com/gwoolly
+  - title: playstation
+    url: http://github.com/gwoolly
+  - title: ps
+    url: http://github.com/gwoolly
+  - title: nintendo
+    url: http://github.com/gwoolly
+  - title: switch
+    url: http://github.com/gwoolly
+  - title: xbox
     url: http://github.com/gwoolly
 
 # Postal address (add as many lines as necessary)
@@ -52,7 +64,7 @@ address:
   - line: Bristol, United Kingdom
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Modified from Freelancer, a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
