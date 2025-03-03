@@ -3,8 +3,8 @@ title: Grant Woolley
 email: woollygrant@gmail.com
 url: https://github.com/GWoolly/gwoolly
 # url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
+description: "Check out Grant's portfolio, we should totally hire him!"
+keywords: "Quality assurance, QA Tester, QA Testing, games testing, games tester, Games Design, Pixel art, pixelart, pixel artist"
 skills: "Quality Assurance - Games Design - Pixel Art"
 meta_author: Woolley Grant
 
@@ -58,7 +58,7 @@ address:
   - line: Bristol, United Kingdom
 
 # Credits content
-credits: 'Modified from Freelancer, a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Modified from <a href="http://startbootstrap.com">Start Bootstrap</a> Freelancer theme for Jekyll sites.'
 
 # Build settings
 markdown: kramdown
