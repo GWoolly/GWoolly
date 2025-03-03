@@ -40,13 +40,13 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-    - title: linkedin
-    url: https://www.linkedin.com/in/grantwoolley/
-    - title: github
+ - title: linkedin
+ url: https://www.linkedin.com/in/grantwoolley/
+  - title: github
     url: http://github.com/gwoolly
-    - title: itch-io
+  - title: itch-io
     url: https://gwoolley.itch.io/
-    - title: steam
+  - title: steam
     url: https://steamcommunity.com/profiles/76561198057387248/
   # - title: playstation
     # url: http://github.com/gwoolly
