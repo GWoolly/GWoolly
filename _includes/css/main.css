@@ -36,59 +36,44 @@ h6 {
     font-weight: 700;
 }
 
-hr.star-light,
-hr.star-primary {
-    margin: 25px auto 30px;
-    padding: 0;
-    max-width: 250px;
-    border: 0;
-    border-top: solid 5px;
-    text-align: center;
-    overflow: visible;
-}
-
-hr.star-light:after,
-hr.star-primary:after {
-    content: "\f005";
-    display: inline-block;
-    position: relative;
-    top: -.8em;
-    padding: 0 .25em;
-    font-family: FontAwesome;
-    font-size: 2em;
-}
-
-hr.star-light {
-    border-color: #fff;
-}
-
-hr.star-light:after {
-    color: #fff;
-    background-color: #{{ site.color.primary }};
-}
-
-hr.star-primary {
-    border-color: #{{ site.color.secondary }};
-}
-
-hr.star-primary:after {
-    color: #{{ site.color.secondary }};
-    background-color: #fff;
-}
 
 .img-centered {
     margin: 0 auto;
 }
 
 header {
+    position: relative;
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+	/* background: #{{ site.color.primary }} url('/img/header.png') no-repeat center center; */
+    background: #{{ site.color.primary }}; /* Fallback background colour */
+    overflow: hidden; /* Ensures the video doesn't overflow the header */
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire header */
+    z-index: 0; /* Places the video behind all other header content */
 }
 
 header .container {
+    position: relative;
     padding-top: 100px;
     padding-bottom: 50px;
+    z-index: 1; /* Ensures your content displays above the video */
+}
+
+/* New background box behind text content */
+header .header-text-box {
+    background: rgba(0, 0, 0, 0.75); /* Semi-transparent black; adjust as needed */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
 }
 
 header img {
@@ -99,7 +84,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -481,4 +466,55 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+
+
+
+
+hr.star-div {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    height: 5px; /* Line thickness */
+    overflow: visible;
+    color: inherit; /* Inherit text color from the parent */
+    background: linear-gradient(
+      to right,
+      currentColor 0%,
+      currentColor 40%,
+      transparent 40%,
+      transparent 60%,
+      currentColor 60%,
+      currentColor 100%
+    );
+    position: relative;
+    --hr-icon: "\f005"; /* Default icon: star */
+}
+
+hr.star-div:after {
+    content: var(--hr-icon);
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 2em;
+    color: currentColor; /* Uses the current (inherited) text color */
+    background: transparent;
+    padding: 0 0.25em;
+    position: absolute;
+    left: 50%;
+    top: -0.7em; /* Adjust as needed */
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+
+
+
+hr.star-div.bug {
+    --hr-icon: "\f188"; /* Bug icon */
+}
+
+hr.star-div.gamepad {
+	--hr-icon: "\f11b"; /* Gamepad icon */
 }
