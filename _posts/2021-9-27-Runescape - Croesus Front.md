@@ -1,10 +1,10 @@
 ---
 layout: default
-modal-id: 3
-date: 2014-07-18
+modal-id: RS3-Croesus-Front
+date: 2021-9-27
 img: RS3-earth.png
 alt: Runescape Croesus Front
-release: 2021
+release: 2021-9-27
 platforms: PC / Mobile
 client: Jagex
 category: QA Testing

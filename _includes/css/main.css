@@ -518,3 +518,87 @@ hr.star-div.bug {
 hr.star-div.gamepad {
 	--hr-icon: "\f11b"; /* Gamepad icon */
 }
+
+
+/* Claude markdown post */
+.portfolio-modal .modal-dialog {
+    max-width: 90%;
+    width: 90%;
+    margin: 30px auto;
+}
+
+@media (min-width: 768px) {
+    .portfolio-modal .modal-dialog {
+        max-width: 80%;
+        width: 80%;
+    }
+}
+
+.portfolio-modal .modal-content .content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.portfolio-modal .modal-content .content-inner {
+  display: inline-block;
+  text-align: left;
+  max-width: 100%;
+}
+
+.portfolio-modal .modal-content .content-inner h1, 
+.portfolio-modal .modal-content .content-inner h2, 
+.portfolio-modal .modal-content .content-inner h3, 
+.portfolio-modal .modal-content .content-inner p, 
+.portfolio-modal .modal-content .content-inner ul, 
+.portfolio-modal .modal-content .content-inner ol {
+  text-align: center;
+}
+
+
+.video-preview {
+  position: relative;
+  cursor: pointer;
+}
+
+.video-preview-overlay {
+  position: relative;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  color: rgba(255,255,255,0.8);
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.video-preview-overlay img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* .content-wrapper { */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* width: 100%; */
+/* } */
+
+/* .content-inner { */
+  /* display: inline-block; */
+  /* text-align: left; */
+  /* max-width: 100%; */
+/* } */
+
+/* .content-inner h1,  */
+/* .content-inner h2,  */
+/* .content-inner h3,  */
+/* .content-inner p,  */
+/* .content-inner ul,  */
+/* .content-inner ol { */
+  /* text-align: center; */
+/* } */

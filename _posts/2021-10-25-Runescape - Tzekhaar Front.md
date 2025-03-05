@@ -1,10 +1,10 @@
 ---
 layout: default
-modal-id: 2
-date: 2014-07-18
+modal-id: RS3-Tzekhaar-Front
+date: 2021-10-25
 img: RS3-fire.png
 alt: Runescape TzekHaar Front
-release: 2021
+release: 2021-10-25
 platforms: PC / Mobile
 client: Jagex
 category: QA Testing
